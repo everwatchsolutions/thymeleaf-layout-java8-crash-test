@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: ui
+     
+server:
+  port: 8083

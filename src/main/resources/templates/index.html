@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Home</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Super Dope Webpage Brah</h1>
+    <span>Hello, </span><span th:text="${name != null} ? ${name} : 'whats your name?!'">name</span>
+</body>
+</html>
